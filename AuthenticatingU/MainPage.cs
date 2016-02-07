@@ -109,8 +109,8 @@ namespace AuthenticatingU
         private void btn_facebook_Click(object sender, EventArgs e)
         {
            
-            string[] args = new string[0];
-            hackathon.Hackathon.main(args);
+           // string[] args = new string[0];
+           // hackathon.Hackathon.main(args);
             WebPageForm webPage = new WebPageForm();
             webpage = "www.fb.com";
             webPage.Show();
